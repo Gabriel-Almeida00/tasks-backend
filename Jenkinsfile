@@ -51,6 +51,14 @@ pipeline {
                  }
             }
         }
+        stage ('functional Test') {
+            steps {
+                dir('functional-test') {
+                    git 'https://github.com/Gabriel-Almeida00/tasks-functional-test'
+                    bat 'mvn test'
+                }
+            }
+        }
     }
 }
 
