@@ -97,5 +97,10 @@ Integração contínua com testes, utilizando Jenkins
 
 </div>
 
+ teste de api:https://github.com/Gabriel-Almeida00/tasks-api-test
+ testes funcionais: https://github.com/Gabriel-Almeida00/tasks-functional-test
+ frontend: https://github.com/Gabriel-Almeida00/tasks-frontend
+
+
 
 
